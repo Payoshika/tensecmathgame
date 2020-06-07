@@ -1,0 +1,110 @@
+body{
+  background-color: #f4f6ff;
+  font-family: 'Roboto';
+}
+h2{
+  font-size: 3rem;
+}
+p, li{
+  font-size: 1rem;
+  color: #393e46;
+}
+
+.question p{
+  font-size: 2rem;
+}
+
+.result-viewer span{
+  font-size: 2rem;
+}
+
+.timer{
+  height: 6rem;
+  width: 6rem;
+  background-color: #f3c623;
+}
+
+.question{
+  height: 3rem;
+}
+
+.answer-box{
+  border: solid 1px #10375c;
+}
+
+.form-control{
+  height: 5rem !important;
+}
+
+.add{
+  background-color: #10375c !important;
+  border-color: white !important;
+  color: #f4f6ff !important;
+}
+.subtract{
+  background-color: #f4f6ff !important;
+  border-color: #393e46 !important;
+  color: #393e46 !important;
+}
+
+.multiply{
+  background-color: #f4f6ff !important;
+  border-color: #393e46 !important;
+  color: #393e46 !important;
+}
+
+.divide{
+  background-color: #f4f6ff !important;
+  border-color: #393e46 !important;
+  color: #393e46 !important;
+}
+
+.active{
+  background-color: #10375c !important;
+  color: #f4f6ff !important;
+}
+
+input[type="checkbox"] {
+  opacity:0;
+  -webkit-appearance: none;
+  appearance: none;
+  position: absolute;
+}
+
+#math-range{
+  -webkit-appearance: none;
+ appearance: none;
+ background-color: ;
+ height: 0.5rem;
+ border: solid 0.7px #10375c;
+ border-radius: 1rem;
+ background-color: rgba(200,200,200,0.3)
+}
+
+#math-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #f3c623;
+  cursor: pointer;
+}
+
+#math-range::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #f3c623;
+  cursor: pointer;
+}
+
+.start-btn{
+  width: 8rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  background-color: #f3c623;
+  border: solid 1px #f3c623;
+}
+
+.list-group >*{
+  background-color: #f4f6ff;
+}
