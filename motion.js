@@ -56,8 +56,8 @@ var qGenerator = function(){
     answer = firstNum - secondNum
   }
   else if(calculation === "divide") {
-    question = `${firstNum} / ${secondNum}`
-    answer = Math.round(firstNum / secondNum)
+    question = `${firstNum * secondNum} / ${secondNum}`
+    answer = Math.round((firstNum * secondNum)/ secondNum)
   }
   else {
     question = `${firstNum} * ${secondNum}`
@@ -73,7 +73,7 @@ var showQuestion = function(){
     $(".question p").html(pop)
   }
 }
-
+$(".answer-box input").onkeydown
 // user answer checking function
 $(document).on("keydown", ".answer-box input", function(event){
   if(event.keyCode === 13){
@@ -90,7 +90,7 @@ $(document).on("keydown", ".answer-box input", function(event){
             answerResult.push(1.4 * numRangeValue)
           }
           else if(question.includes("/")){
-            answerResult.push(1.6 * numRangeValue)
+            answerResult.push(1.4 * numRangeValue)
           }
           else {
             answerResult.push(1 * 10)
